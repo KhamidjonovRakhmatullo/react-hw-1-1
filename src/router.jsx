@@ -12,11 +12,11 @@ const RouterComponent = () => {
     <BrowserRouter>
     <NavbarComponent/>
     <Routes>
-        <Route path='caravan' element={<CaravanComponent/>}/>
-        <Route path='motor' element={<MotorComponent/>}/>
-        <Route path='tuning' element={<TuningComponent/>}/>
-        <Route path='usedcars' element={<UsedcarsComponent/>}/>
-        <Route path='camping' element={<CampingComponent/>}/>
+        <Route path='/caravan' element={<CaravanComponent/>}/>
+        <Route path='/motor' element={<MotorComponent/>}/>
+        <Route path='/tuning' element={<TuningComponent/>}/>
+        <Route path='/usedcars' element={<UsedcarsComponent/>}/>
+        <Route path='/camping' element={<CampingComponent/>}/>
 
     </Routes>
     </BrowserRouter>

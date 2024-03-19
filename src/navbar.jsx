@@ -10,19 +10,19 @@ const NavbarComponent = () => {
         padding: "20px 30px",
         backgroundColor: "GrayText"
     }}> 
-    <Link to="caravan">
+    <Link to="/caravan">
         <p style={{cursor: "pointer", color: "white"}}>Caravan</p>
     </Link>
-    <Link to="tuning">
+    <Link to="/tuning">
         <p style={{cursor: "pointer", color: "white"}}>Tuning</p>
     </Link>
-    <Link to="motor">
+    <Link to="/motor">
         <p style={{cursor: "pointer", color: "white"}}>Motor</p>
     </Link>
-    <Link to="usedcars">
+    <Link to="/usedcars">
         <p style={{cursor: "pointer", color: "white"}}>Used-Cars</p>
     </Link>
-    <Link to="camping">
+    <Link to="/camping">
         <p style={{cursor: "pointer", color: "white"}}>Camping</p>
     </Link>
     </div>
